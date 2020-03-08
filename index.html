@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+        integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron m-4">
+            <h1>Movies App!</h1>
+            <form class="form-inline justify-content-center" >
+                
+                    <div class="form-group">
+                        <label for="InputTitle">Movie Title</label>
+                        <input type="text" class="form-control" id="movieTitle" placeholder="Enter Movie Title">
+                    </div>
+                    <div class="form-group">
+                        <label for="rating">Rating
+                        <input type="number" required  min="0" max="10" id="rating" class="form-control mx-sm-3">
+                      </div>
+                    <!-- <div class="col">
+                        <label for="InputRating">Rating</label>
+                        <select class="form-control" id="rating">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div> -->
+                
+                <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <div class="container">
+        <ul>
+            <li>the unknown tomorrow   <button class="btn btn-danger btn-sm">Delete</button></li>
+            <li>what happened to yesterday   <button class="btn btn-danger btn-sm">Delete</button></li>
+        </ul>
+    </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,17 @@
+
+
+ul {
+    list-style: none;
+
+}
+
+li{
+    
+    height: 50px;
+    
+}
+
+.btn-danger{
+    /* background-color: rgb(12, 11, 12); */
+float: right;
+}
